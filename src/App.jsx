@@ -54,6 +54,89 @@ function App() { // this create the react component
 
       </section>
 
+      {/*job categories section  */} 
+
+            {/* Job Categories Section */}
+      <section className="px-10 py-20 bg-white">
+
+        {/* Heading */}
+        <div className="text-center mb-14">
+          <h2 className="text-4xl font-bold text-gray-800">
+            Explore Job Categories
+          </h2>
+
+          <p className="text-gray-500 mt-4 text-lg">
+            Discover opportunities across different fields and technologies.
+          </p>
+        </div>
+
+        {/* Category Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+          {/* Card 1 */}
+          <div className="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 cursor-pointer">
+
+            <div className="text-5xl mb-4">💻</div>
+
+            <h3 className="text-2xl font-bold text-gray-800 mb-3">
+              Frontend Developer
+            </h3>
+
+            <p className="text-gray-600">
+              Build modern and interactive user interfaces for web applications.
+            </p>
+
+          </div>
+
+          {/* Card 2 */}
+          <div className="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 cursor-pointer">
+
+            <div className="text-5xl mb-4">⚙️</div>
+
+            <h3 className="text-2xl font-bold text-gray-800 mb-3">
+              Backend Developer
+            </h3>
+
+            <p className="text-gray-600">
+              Work with servers, APIs, and databases powering applications.
+            </p>
+
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 cursor-pointer">
+
+            <div className="text-5xl mb-4">🎨</div>
+
+            <h3 className="text-2xl font-bold text-gray-800 mb-3">
+              UI/UX Designer
+            </h3>
+
+            <p className="text-gray-600">
+              Design visually appealing and user-friendly digital experiences.
+            </p>
+
+          </div>
+
+          {/* Card 4 */}
+          <div className="bg-gray-100 p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300 cursor-pointer">
+
+            <div className="text-5xl mb-4">📊</div>
+
+            <h3 className="text-2xl font-bold text-gray-800 mb-3">
+              Data Scientist
+            </h3>
+
+            <p className="text-gray-600">
+              Analyze data and build intelligent machine learning systems.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
     </div>
   );
 }
