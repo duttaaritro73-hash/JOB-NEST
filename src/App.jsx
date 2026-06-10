@@ -1,10 +1,10 @@
 
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Hero from "./components/HeroTemp";
-import JobCategories from "./components/JobCategoriesTemp";
-import JobHeadings from "./components/JobHeadingTemp";
-import FeaturedJobs from "./components/FeaturedJobsTemp";
+import Hero from "./components/Hero";
+import JobCategories from "./components/JobCategories";
+import JobHeadings from "./components/JobHeading";
+import FeaturedJobs from "./components/FeaturedJobs";
 import TopCompanies from "./components/TopCompanies";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Testimonials from "./components/Testimonials";
