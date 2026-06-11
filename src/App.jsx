@@ -9,6 +9,9 @@ import TopCompanies from "./components/TopCompanies";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import Statistics from "./components/Statistics";
+import PopularSkills from "./components/PopularSkills";
+import Newsletter from "./components/Newsletter";
 
 function App() { // this create the react component 
   return (   // show ui on the screen 
@@ -25,15 +28,25 @@ function App() { // this create the react component
       {/* Hero Section */ /* this is where the hero section of the website is done*/}
 
       <Hero />
+      <div className="py-10"></div>
 
+      <Statistics />
 
+      <div className="py-10"></div>
       {/*job categories section  */}
+
+
+
       <section className="px-10 py-20 bg-white/10 backdrop-blur-lg border border-white/20">
 
         <JobHeadings />
         {/* Heading */}
 
         <JobCategories />
+        <div className="py-10"></div>
+
+        <PopularSkills />
+        <div className="py-10"></div>
 
         {/* Featured Jobs Section */}
 
@@ -51,6 +64,8 @@ function App() { // this create the react component
         {/* Testimonials Section */}
 
         <Testimonials />
+
+       
         {/* Footer Section */}
 
         {/* Call To Action Section */}
@@ -83,6 +98,10 @@ function App() { // this create the react component
           </div>
 
         </section>
+        <div className="py-10"></div>
+
+         <Newsletter />
+         <div className="py-10"></div>
 
 
         <Footer />
